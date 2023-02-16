@@ -1,10 +1,7 @@
 import 'dart:io';
 
-void main(List<String> args) {
-  bmiCalculator();
-}
 //Programa que calcula o IMC
-bmiCalculator() {
+calcularImc() {
   print("Digite seu Peso:");
   String? textPeso = stdin.readLineSync();
   int peso = int.parse(textPeso ?? '0');

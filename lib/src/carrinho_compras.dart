@@ -1,7 +1,8 @@
 import 'dart:io';
 
 List<String> productsList = []; // variavel global
-void main(List<String> args) {
+
+carrinhoCompras() {
 
   bool condition = true;
 
