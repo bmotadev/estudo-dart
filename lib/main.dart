@@ -5,7 +5,7 @@ import 'package:estudo_dart/src/imc.dart';
 
 
 void main(List<String> arguments) {
-  if(arguments[0] == "calculo-idade"){
+  if(arguments[0] == "calculo-idade"){ // executa o arquivo de acordo com os parametros passados no terminal apos o arquivo dart. Exemplo: dart .\main.dart cadastro
     calculoIdade();
   } else if(arguments[0] == "carrinho-compras"){
     carrinhoCompras();
